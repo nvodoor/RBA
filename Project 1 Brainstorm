@@ -1,0 +1,33 @@
+Project 1 Brainstorm - Song, Neil, Mike
+
+YELP! API Project 8/22/17
+
+1. Bar chart plotting delivery type vs average ratings.
+
+2. Bubbleplot of review count, average price, ratings.  
+
+3. Maybe seperate by restaurant type vs city type/region/state?
+
+---------------------------------------------------------------
+
+Project Ideas - 8/24/17
+
+1.  Explore most popular/successful restuarants () including review score/review count
+
+2.  Bubble chart displaying (color)type, (placement) rating and  (dot size) #reviews
+
+3.  Explore popularity of restaurants by type to reduce competition (sum of reviews by type) - Bar chart without regarding score
+
+4.  Pie chart distribution of review scores by restaurant type.
+
+5.  Restaurant price by restaurant type - bar chart
+
+6.  Use neighborhood search to target areas for prospective new restaurants that    high   success chance . measure by # of restaurant(type) in neighboorhood, radius of 750, ratings for those restaurants.
+
+7. price by neighborhood to reflect spending habits in area (disposable income).
+
+8.  Use crimedata for simplicity, 
+
+list of districts of interest = [Castro District, Chinatown, Ternderloin, Inner Richmond, Inner Sunset, Alamo Square, Russian Hill, Mission, NorthBeach/Telegraph, SoMa]
+
+list of types = [Chinese, Mexican, French, Japanese, Mediterranean, American, Italian, Korean, Thai, Indian]
