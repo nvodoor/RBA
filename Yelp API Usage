@@ -1,0 +1,41 @@
+import requests as req
+
+!pip install oauthlib
+
+!pip install requests_oauthlib
+
+from oauthlib.oauth2 import MobileApplicationClient
+
+from requests_oauthlib import OAuth2Session
+
+from oauthlib.oauth2 import BackendApplicationClient
+client_id = 'insert id'
+client_secret = 'insert secret'
+
+client = BackendApplicationClient(client_id=client_id)
+oauth = OAuth2Session(client=client)
+token = oauth.fetch_token(token_url='https://api.yelp.com/oauth2/token', client_id=client_id,
+        client_secret=client_secret)
+		
+print(token['access_token'])
+
+tok = token['access_token']
+
+url_params = {
+              'term': 'deli', 
+              'location': 'Mission District, San Francisco',
+              'limit': 50
+             }
+url = "https://api.yelp.com/v3/businesses/search"
+headers = {
+    'Authorization': 'Bearer %s' % tok,
+}
+busn = req.get(url, headers=headers, params=url_params)
+
+import json
+print(busn.json())
+dels = busn.json()
+
+for x in dels['businesses']:
+    print(x['name'])
+
