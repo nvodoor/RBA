@@ -100,7 +100,7 @@ Our original intention was to implement crime data to see if there may be some c
 
 #Credits:
 
-Thank you so much to everyone that contributed to this project.  It ended up being a larger challenge that originally anticipated.  
+Thank you so much to everyone that contributed to this project.  It ended up being a larger challenge than originally anticipated.  
 
 
 
