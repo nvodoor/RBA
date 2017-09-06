@@ -1,4 +1,5 @@
-#UCB Data Analytics Project
+#
+UCB Data Analytics Project
 
 **Members: Neil, Song, Michael**
 
@@ -97,6 +98,9 @@ There were some issues that we found to be counter productitive during our proje
 There were Github repositories for API search code for the previous version of the API, however the new Fusion API version that is being used by Yelp! required a good deal of time by team members in order to utilize for this project.  
 
 Our original intention was to implement crime data to see if there may be some correlation to the results that were generated.  However, there was not enough time to implement this additional layer of data analysis.  
+
+#Challenges:
+Due to the way the API is set up, only a maximum of 50 top searches will appear when a get request is made.  Because of this we needed to use the radius search parameter to try to get more representative results of restaurant distribution per each district.  We decided to limit the search radius to 750 meters in order to cover a large enough area and cover each district as best as possible.  
 
 #Credits:
 
