@@ -92,6 +92,8 @@ and cuisine types to explore:
             
 From these lists we were able to generate dataframes using pandas package in Python.  From these dataframes, we could convert our values into visualizations using matplotlib package in Python.
             
+[Example Bubble Plot](https://github.com/nvodoor/RBA/blob/master/TypesCount/ChinaTownCounts.png)
+
 #Issues:
 There were some issues that we found to be counter productitive during our project.  The biggest issue is that the Yelp! Fusion API search feature will only return 50 of the most relevant matches regardless of actual population size.  Because of this, we had to determine a radius search size that would accurately represent a district and still not cap out on search results.  We determined 750m would yield acceptable results without comprimising district representation.
 
