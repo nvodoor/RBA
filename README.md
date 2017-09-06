@@ -1,5 +1,4 @@
-#
-UCB Data Analytics Project
+#UCB Data Analytics Project
 
 **Members: Neil, Song, Michael**
 
